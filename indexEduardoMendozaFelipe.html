@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <<script>
+            var numeros=[1,2,3,4,5,6,7,8,9]
+            console.log("Matriz original");
+            for(var i=2;i<9;i++){
+              
+                console.log(numeros[i-2]+" "+numeros[i-1]+" "+numeros[i]);
+             i=i+2;
+            }
+            console.log("-----------------------------------------");
+            console.log("Salida 1");
+            
+            for(var o=6;o>=0;o--){
+              
+                console.log(numeros[o+2]+" "+numeros[o+1]+" "+numeros[o]);
+             o=o-2;
+            }
+            console.log("-----------------------------------------");
+            console.log("Salida 2");
+            for(var a=0;a<=10;a++){
+                console.log(numeros[a]+" "+numeros[a+3]+" "+numeros[a+6]);
+                a=1;
+                console.log(numeros[a]+" "+numeros[a+3]+" "+numeros[a+6]);
+                a=2;
+                console.log(numeros[a]+" "+numeros[a+3]+" "+numeros[a+6]);
+                a=10;
+            }
+            console.log("-----------------------------------------");
+            console.log("Salida 3");
+            for(var z=8;z<=10;z++){
+                console.log(numeros[z]+" "+numeros[z-3]+" "+numeros[z-6]);
+                z=7;
+                console.log(numeros[z]+" "+numeros[z-3]+" "+numeros[z-6]);
+                z=6;
+                console.log(numeros[z]+" "+numeros[z-2]+" "+numeros[z-6])
+                z=10;
+            }
+        </script>
+        <h1>Hecho by:Eduardo Mendoza Felipe</h1>
+    </body>
+</html>
